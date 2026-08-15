@@ -6,6 +6,92 @@ body {
     height: 100%;
 }
 
+.btn.circular {
+    position: fixed;
+
+    z-index: 3;
+
+    width: 6.875vh;
+    height: 6.875vh;
+
+    top: 43.75vh;
+
+    border: none;
+    border-radius: 50%;
+
+    background-color: #5e17eb;
+
+    cursor: pointer;
+
+    box-shadow: 0 0.8vh 0 #461e7f;
+
+    padding: 0;
+}
+
+
+/* BOTÓN IZQUIERDO */
+
+.btn.circular.left {
+    left: 2.78%;
+}
+
+
+/* BOTÓN DERECHO */
+
+.btn.circular.right {
+    right: 2.78%;
+}
+
+
+/* TRIÁNGULO IZQUIERDO */
+
+.btn.circular.left::before {
+    content: "";
+
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: 0;
+    height: 0;
+
+    border-top: 1.2vh solid transparent;
+    border-bottom: 1.2vh solid transparent;
+    border-right: 1.8vh solid #af87ff;
+}
+
+
+/* TRIÁNGULO DERECHO */
+
+.btn.circular.right::before {
+    content: "";
+
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: 0;
+    height: 0;
+
+    border-top: 1.2vh solid transparent;
+    border-bottom: 1.2vh solid transparent;
+    border-left: 1.8vh solid #af87ff;
+}
+
+
+/* EFECTO AL PRESIONAR */
+
+.btn.circular:active {
+    box-shadow: none;
+    transform: translateY(0.8vh);
+}
+
 .logo-principal {
     position: absolute;
     z-index: 2;
@@ -16,6 +102,22 @@ body {
     top: 4.375vh;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.pie-pagina {
+    position: absolute;
+    z-index: 2;
+    bottom: 0.5vh;
+    left: 0;
+
+    width: 100%;
+
+    text-align: center;
+
+    font-size: 1.5vh;
+
+    font-family: Arial, sans-serif;
+    color: #737373;
 }
 
 .forma-superior-uno {
