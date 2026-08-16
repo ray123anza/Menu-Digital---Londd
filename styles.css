@@ -193,7 +193,7 @@ body {
     width: 80.56%;
     height: 25vh;
 
-    bottom: 12vh;
+    top: 65vh;
 
     left: 50%;
     transform: translateX(-50%);
@@ -339,7 +339,7 @@ body {
 
 .pie-pagina {
     position: absolute;
-    z-index: 2;
+    z-index: 1;
     bottom: 1vh;
     left: 0;
 
