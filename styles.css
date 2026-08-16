@@ -14,7 +14,7 @@ body {
     width: 6.875vh;
     height: 6.875vh;
 
-    top: 43.75vh;
+    top: 41.25vh;
 
     border: none;
     border-radius: 50%;
@@ -111,7 +111,7 @@ body {
     width: auto;
     height: 29.375vh;
 
-    top: 32.5vh;
+    top: 30vh;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -191,7 +191,7 @@ body {
     z-index: 5;
 
     width: 80.56%;
-    height: 22.5vh;
+    height: 25vh;
 
     top: 65vh;
 
