@@ -188,12 +188,12 @@ body {
 .ficha-producto {
     position: fixed;
 
-    z-index: 2;
+    z-index: 3;
 
     width: 80.56%;
     height: 25vh;
 
-    top: 62.5vh;
+    top: 65vh;
 
     left: 50%;
     transform: translateX(-50%);
