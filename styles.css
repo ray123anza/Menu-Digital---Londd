@@ -191,7 +191,7 @@ body {
     z-index: 5;
 
     width: 80.56%;
-    height: 25vh;
+    height: 22.5vh;
 
     top: 65vh;
 
@@ -217,7 +217,7 @@ body {
     margin: 0;
 
     font-family: "Anton", sans-serif;
-    font-size: 2.5vh;
+    font-size: 2.25vh;
 
     color: #5e17eb;
 }
@@ -231,7 +231,7 @@ body {
     margin: 0.2vh 0;
 
     font-family: "Anton", sans-serif;
-    font-size: 3.75vh;
+    font-size: 3.5vh;
 
     color: #af87ff;
 }
@@ -267,7 +267,7 @@ body {
 
     font-family: "Anton", sans-serif;
 
-    font-size: 1.875vh;
+    font-size: 1.8vh;
 
     color: #af87ff;
 }
