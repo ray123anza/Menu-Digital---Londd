@@ -104,17 +104,6 @@ body {
     transform: translateX(-50%);
 }
 
-.imagen-producto {
-    position: absolute;
-    z-index: 2;
-
-    width: auto;
-    height: 29.375vh;
-
-    top: 30vh;
-    left: 50%;
-    transform: translateX(-50%);
-}
 
 /* =========================
    SELECTOR DE CATEGORÍAS
@@ -294,6 +283,19 @@ body {
 
 .ingredientes-columna li {
     margin-bottom: 0vh;
+}
+
+
+.imagen-producto {
+    position: absolute;
+    z-index: 2;
+
+    width: auto;
+    height: 29.375vh;
+
+    top: 30vh;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 
