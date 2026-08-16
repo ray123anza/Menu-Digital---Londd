@@ -202,7 +202,7 @@ body {
 .ficha-producto {
     position: fixed;
 
-    z-index: 2;
+    z-index: 1;
 
     width: 80.56%;
     height: 25vh;
