@@ -179,21 +179,7 @@ body {
     background-color: #5e17eb;
 }
 
-.pie-pagina {
-    position: absolute;
-    z-index: 2;
-    bottom: 1vh;
-    left: 0;
 
-    width: 100%;
-
-    text-align: center;
-
-    font-size: 1vh;
-
-    font-family: Arial, sans-serif;
-    color: #737373;
-}
 
 /* =========================
    FICHA DEL PRODUCTO
@@ -349,4 +335,20 @@ body {
     position: fixed;
     bottom: 5.625vh;
     left: 0;
+}
+
+.pie-pagina {
+    position: absolute;
+    z-index: 2;
+    bottom: 1vh;
+    left: 0;
+
+    width: 100%;
+
+    text-align: center;
+
+    font-size: 1vh;
+
+    font-family: Arial, sans-serif;
+    color: #737373;
 }
