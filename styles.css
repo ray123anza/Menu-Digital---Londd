@@ -206,14 +206,14 @@ body {
    ========================= */
 
 .ficha-producto {
-    position: fixed;
+    position: relative;
 
     z-index: 1;
 
     width: 80.56%;
     height: 25vh;
 
-    top: 60vh;
+    top: 45vh;
 
     left: 50%;
     transform: translateX(-50%);
