@@ -356,3 +356,51 @@ body {
     font-family: Arial, sans-serif;
     color: #737373;
 }
+
+
+/* ==========================================
+   ANIMACIÓN DE LA IMAGEN
+   ========================================== */
+
+.animar-imagen {
+    animation: aparecerImagen 0.35s ease;
+}
+
+
+@keyframes aparecerImagen {
+
+    0% {
+        opacity: 0;
+        transform: translateX(-50%) scale(0.92);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(-50%) scale(1);
+    }
+
+}
+
+
+/* ==========================================
+   ANIMACIÓN DE LA FICHA
+   ========================================== */
+
+.animar-ficha {
+    animation: aparecerFicha 0.3s ease;
+}
+
+
+@keyframes aparecerFicha {
+
+    0% {
+        opacity: 0;
+        transform: translateX(-50%) translateY(1vh);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(-50%) translateY(0);
+    }
+
+}
